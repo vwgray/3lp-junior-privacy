@@ -19,17 +19,44 @@
   ul { padding-left: 1.2rem; }
   li { margin: .35rem 0; }
   code { font-size: .9em; }
+  .head { display: flex; align-items: center; gap: .9rem; margin-bottom: 1.5rem; }
+  .head h1 { margin: 0; }
+  .mark { width: 52px; height: 52px; flex: none; border-radius: 11px; }
   h3 { font-size: 1rem; margin-top: 1.6rem; margin-bottom: .2rem; }
   footer { margin-top: 3rem; color: #697386; font-size: .9rem; }
 </style>
 </head>
 <body>
 
+<div class="head"><svg class="mark" viewBox="0 0 48 48" role="img" aria-label="A brick house">
+  <defs><linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+    <stop offset="0" stop-color="#7fb0ff"/><stop offset="1" stop-color="#5b8ff0"/>
+  </linearGradient></defs>
+  <rect width="48" height="48" rx="10.5" fill="url(#g)"/>
+  <rect x="31.5" y="11.5" width="4.2" height="8" rx="1.2" fill="#9b412a"/>
+  <path d="M24 7.7 4.8 23h38.4Z" fill="#3a445c"/>
+  <path d="M9.6 22h28.8v18.3H9.6Z" fill="#c9603d"/>
+  <path d="M9.6 34.5h28.8v5.8H9.6Z" fill="#9b412a"/>
+  <g stroke="#e8dcd0" stroke-width="1.2">
+    <path d="M9.6 25.6h28.8M9.6 29.2h28.8M9.6 32.8h28.8M9.6 36.4h28.8"/>
+    <path d="M19 22v3.6M28.6 22v3.6M14.2 25.6v3.6M33.4 25.6v3.6M19 29.2v3.6M28.6 29.2v3.6M14.2 32.8v3.6M33.4 32.8v3.6"/>
+  </g>
+  <path d="M20.6 29.8h6.8v10.5h-6.8Z" fill="#3a445c"/>
+</svg>
+<div>
 <h1>3LP Junior — Support</h1>
 <p class="sub">Brick by Brick</p>
+</div>
+</div>
 
 <p class="lede">Something not working, or a question the app does not answer?
 Email <a href="mailto:3lpapps@gmail.com">3lpapps@gmail.com</a> and a person will reply.</p>
+
+<p>3LP Junior gives a child two decisions a month — what to save, risk or spend, and how much to put
+at risk — and then makes them live with it until the month is out. Safe Savings grows slowly and
+never falls. Risky Investment does whatever that month's event and that month's challenge decide
+between them. It is a small app, run by one person, and the questions below are the ones that
+actually come up.</p>
 
 <h2>Common questions</h2>
 
@@ -76,7 +103,8 @@ those limits.</p>
 version, roughly when it happened, and what was on screen. Please do not send a backup file unless we
 ask &mdash; it contains your children's names and balances.</p>
 
-<footer>3LP Junior: Brick by Brick &mdash; published by 3LP. <a href="../">Privacy policy</a></footer>
+<footer>Built for two children who wanted to know why saving was worth it.<br>
+3LP Junior: Brick by Brick &mdash; published by 3LP. <a href="../">Privacy policy</a></footer>
 
 </body>
 </html>
